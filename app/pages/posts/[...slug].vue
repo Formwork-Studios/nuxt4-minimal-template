@@ -7,14 +7,16 @@ const { data: page } = await useAsyncData(route.path, () => {
 
 <template>
     <UContainer>
-        <main>
+        <div>
             <h1>{{ page.title }}</h1>
             <ContentRenderer v-if="page" :value="page" />
             <div class="py-6">
                 <div>
-                    <div><nuxt-link to="/posts"><- Back</nuxt-link></div>
+                    <div><nuxt-link to="/posts">
+                            <UIcon name="i-mdi-arrow-left" /> Back
+                        </nuxt-link></div>
                 </div>
             </div>
-        </main>
+        </div>
     </UContainer>
 </template>

@@ -2,9 +2,9 @@
 
 <template>
   <UContainer>
-    <main>
-      Page: contact
-    </main>
+
+    Page: contact
+
   </UContainer>
 </template>
 

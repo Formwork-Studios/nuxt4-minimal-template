@@ -2,9 +2,9 @@
 
 <template>
   <UContainer>
-    <main>
-      Page: about
-    </main>
+
+    Page: about
+
   </UContainer>
 </template>
 

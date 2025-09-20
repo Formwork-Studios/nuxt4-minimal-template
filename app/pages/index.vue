@@ -3,9 +3,8 @@
 <template>
   <div>
     <UContainer>
-      <main>
-        Page: index
-      </main>
+
+      <HomeHero />
     </UContainer>
   </div>
 </template>
