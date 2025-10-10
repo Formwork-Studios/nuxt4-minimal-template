@@ -2,6 +2,26 @@
 @import "@nuxt/ui";
 
 h1 {
+  font-family: "inter", sans-serif !important;
+  font-weight: 800; /* Extra Bold for maximum impact */
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600; /* Semi Bold */
+}
+
+h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500; /* Medium */
+}
+
+h1 {
   font-size: theme(fontSize.4xl);
   line-height: theme(lineHeight.tight);
   font-weight: theme(fontWeight.bold);

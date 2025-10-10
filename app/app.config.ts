@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  siteName: "Nuxt 4 Template",
+  siteName: "BIOHACK YOUR STEAM ROOM",
   ui: {
     colors: {
       primary: "blue",
